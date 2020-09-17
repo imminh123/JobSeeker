@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.typekit.net/bkj4imf.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="jobList.css">
+
+</head>
+<body>
+
+<header id="header">
+    <div id="header-title">
+        <h1>Candidate List</h1>
+    </div>
+    <div id="header-actions">
+        <ul class="segmented-control">
+            <li>
+                <button type="button" class="is-selected">All</button>
+            </li>
+            <li>
+                <button type="button">Updated</button>
+            </li>
+            <li>
+                <button type="button">Watched</button>
+            </li>
+            <li>
+                <button type="button">Referral</button>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<main id="main">
+    <div id="main-primary">
+        <!-- Candidate List Template -->
+        <script id="candidate-list-template" type="text/x-handlebars-template">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>&middot;</th>
+                        <th>Candidate Name</th>
+                        <th>Rating</th>
+                        <th>Job</th>
+                        <th>Workflow Stage</th>
+                        <th>Source</th>
+                        <th>Applied</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each this}}
+                    <tr>
+                        <td>
+                            <div class="badge">1</div>
+                        </td>
+                        <td>{{first_name}} {{last_name}}</td>
+                        <td>
+                            <ul class="rating">
+                                {{#times star_rating}}
+                                    <li>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                {{/times}}
+                            </ul>
+                        </td>
+                        <td>Software Engineer</td>
+                        <td>{{workflow_stage}}</td>
+                        <td>{{source}}</td>
+                        <td>{{applied_date}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </script>
+
+        <div id="candidate-list-target"></div>
+    </div>
+
+    <div id="main-side">
+        <div id="main-side-toggle">
+            <button type="button" id="collapse-trigger">
+                <span class="fa fa-filter"></span>
+            </button>
+        </div>
+
+        <h1>Filter Candidates</h1>
+
+        <ul class="horizontal-list mb2">
+            <li>
+                <button class="btn-ghost is-pill">Updated</button>
+            </li>
+            <li>
+                <button class="btn-ghost is-pill is-large">Watched</button>
+            </li>
+        </ul>
+
+        <!-- Filter Form Template -->
+        <label for="candidate-name-input">Candidate Name</label>
+        <input type="text" class="input" id="candidate-name-input" />
+
+        <script id="filter-form-template" type="text/x-handlebars-template">
+            <label for="job-input">
+            Job
+        </label>
+        <select name="job-input" id="job-input">
+            <option value="">None</option>
+            <option value="software-engineer">
+                Software Engineer
+            </option>
+            {{#each this}}
+            <option value="software-engineer">
+                {{this}}
+            </option>
+            {{/each}}
+        </select>
+        </script>
+
+        <!-- Filter Form Target -->
+        <div id="filter-form-target"></div>
+
+        <!-- Main Side Actions -->
+        <div id="main-side-action">
+            <ul class="horizontal-list">
+                <li>
+                    <button class="btn-ghost" id="clear-filter-button">Clear</button>
+                </li>
+                <li>
+                    <button class="btn" id="apply-filter-button">Apply</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+<script src="jobList.js"></script>
+</body>
+</html>
+
+
+
