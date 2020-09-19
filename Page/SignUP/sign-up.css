@@ -128,9 +128,10 @@ body {
 
 #checkbox {
 	display: flex;
-	justify-content: space-between;
+
 	align-items: center;
 	color: #333;
+	padding-left: 0;
 }
 
 #type {
@@ -139,3 +140,5 @@ body {
 	align-items: center;
 	color: #333;
 }
+
+

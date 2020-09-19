@@ -1,0 +1,154 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.bg-gr {
+	background-color: #5bbc2e;
+}
+.navbar-nav{
+	padding-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: rgba(255,255,255,0.5);
+}
+.modal-content{
+	width: 60%;
+}
+.my_btn{
+	background-color: #489C22;
+    max-width: 100px;
+    max-height: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn:hover{
+	color: rgba(255,255,255,0.5);
+}
+.footer-box{
+	padding: 3px;
+}
+.carousel-control-next-icon{
+	background-image: url(../images/arrow-right.png);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+.carousel-control-prev-icon{
+	background-image: url(../images/arrow-left.png);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+}
+.carousel-caption h5{
+	font-size: 48px;
+	font-weight: 800;
+	color: #000;
+}
+.carousel-caption p{
+	color: #000;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #5bbc2e;
+	background-color: transparent;
+	opacity: 5;
+	border-radius: 50%;
+}
+.carousel-block .carousel-indicators .active{
+	background-color: #5bbc2e;
+}
+.carousel-indicators li:hover{
+	background-color: rgba(0, 230, 64, 0.5);
+}
+.title-span{
+	color: #5bbc2e;
+}
+.title-h3-h5{
+	font-size: 30px;
+	font-weight: 800;
+	color: #8d8d8d;
+}
+@media screen and (max-width: 768px){
+	.bg-imeges{
+		order: 2;
+	}
+	.block-text{
+		order: 1;
+	}
+}
+.bg-imeges{
+	background-image: url(../images/pic-big-1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 247px;
+}
+.row p{
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #767575;
+}
+.works-list{
+	list-style-image: url(../images/arrow.png);
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #767575;
+}
+.bg-img{
+	background-image: url(../images/pic-big-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 247px;
+}
+.card{
+	border-radius: 0;
+	margin: 10px;
+}
+.btn{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 800; 
+	border-radius: 0;
+}
+.card-title{
+	font-size: 12px;
+	color: #4b4b4b;
+	font-weight: 800;
+}
+.card-img-top{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.container-fluid{
+	height: 50px;
+	background-color: #141414
+}
+.footer{
+	margin-top: 5rem;
+	color: #e0e0e0;
+	font-size: 12px;
+	font-weight: 600;
+}
+.carousel-inner{
+  height: 450px;
+}
+.navbar-brand .brand-logo {
+	width: 65px;
+}
+.navbar-nav .nav-item .nav-link {
+	font-size: 18px;
+	padding-right: 30px;
+}
+.button_loggin {
+	text-decoration: none;
+	color: white;
+}
