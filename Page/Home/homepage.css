@@ -141,3 +141,14 @@ body{
 .carousel-inner{
   height: 450px;
 }
+.navbar-brand .brand-logo {
+	width: 65px;
+}
+.navbar-nav .nav-item .nav-link {
+	font-size: 18px;
+	padding-right: 30px;
+}
+.button_loggin {
+	text-decoration: none;
+	color: white;
+}
