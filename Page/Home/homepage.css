@@ -1,5 +1,6 @@
 body{
 	font-family: 'Raleway', sans-serif;
+	
 }
 .bg-gr {
 	background-color: #5bbc2e;
@@ -20,7 +21,6 @@ body{
 }
 .my_btn{
 	background-color: #489C22;
-    max-width: 100px;
     max-height: 100px;
     color: #fff;
     font-size: 14px;
@@ -75,20 +75,12 @@ body{
 	color: #8d8d8d;
 }
 @media screen and (max-width: 768px){
-	.bg-imeges{
-		order: 2;
-	}
+
 	.block-text{
 		order: 1;
 	}
 }
-.bg-imeges{
-	background-image: url(../images/pic-big-1.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	min-height: 247px;
-}
+
 .row p{
 	padding-right: 100px;
 	font-size: 15px;
@@ -118,6 +110,7 @@ body{
 	font-size: 12px;
 	font-weight: 800; 
 	border-radius: 0;
+	
 }
 .card-title{
 	font-size: 12px;
@@ -133,7 +126,6 @@ body{
 	background-color: #141414
 }
 .footer{
-	margin-top: 5rem;
 	color: #e0e0e0;
 	font-size: 12px;
 	font-weight: 600;
@@ -149,6 +141,74 @@ body{
 	padding-right: 30px;
 }
 .button_loggin {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: white;
+	width: 50%;
+}
+.view-all-btn{
+	padding-bottom: 30px;
+} 
+.featured-title{
+	padding-top: 30px;
+	font-weight: bold;
+}
+.pics{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.panel{
+	display: flex;
+}
+.img1{
+	width: 500px;
+	height: 100%;
+}
+.img2{
+	width: 400px;
+	height: 90%;
+}
+.mt-5 .my-5{
+	margin-top: 0rem !important;
+	margin-bottom: 5rem;
+}
+.nav-item{
+	width: 150px;
+}
+ .col-lg-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+}
+.ad{
+	display: flex;
+}
+.ad_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: baseline;
+	padding-left: 50px;
+}
+.ad_img{
+	width: 700px;
+	height: 500px;
+	background-image: linear-gradient(to right, transparent, white), url('https://images.vietnamworks.com/logo/Feature Job Corner - Sales - July 2020 (VI) (1)_112132.png');
+	background-size: cover;
+}
+.ad_btn{
+	background-color: #5bbc2e;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.3s ;
+    padding: 10px 34px;
+    height: auto;
+    margin-top: 10px;
+	border-color: #5bbc2e;
+	border: none;
+}
+.ad_text_real{
+	font-size: 24px;
+    font-weight: 200;
 }
