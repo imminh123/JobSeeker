@@ -7,41 +7,62 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../../menubar.css">
     <link rel="stylesheet" href="postNTD.css">
 </head>
 
 <body>
     <div id="all">
-        <div id="header">
-            <div id="front">
-                <img id="img"
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABBCAMAAACgotfRAAAAn1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8Kd3m4AAAANHRSTlMA2Qj1NBHktqljLvDfcm1XJ9PFvrKMhXt2UjsaBOvPyaaioZqXgW9OSiD5rpKJaF4NXERBBG22dwAAAc5JREFUeAGV1td28joUBODBxWAbg+m9QOglJWfe/9nOshYQO78ibX23XMhoZu8llE1uu6MHB12SyzbkeiRZh9yKJBuQW5LkGnI1kmxOIBZRySDkLUhFekbok2S3TgaYdpqd7QxmZxau8wt9jNTfsaQYsFDDmOzWWJjCKBwXQVzUbSn+DDb5aDMEpqTSgVBA5VfqIXBcZ9CZ1/gQbUI8fSVDkpYjyl08mJq25cuz7neV0jf0Mv4IAHj5TYWaG2v41KxFKQsJ/pJQI2rbSlIRjU09OfGlNYkP+8GgPbdPkjKCxJFPfUi0+fIOgT1/tGDXYMkONvmKFSEsNqzwP2ERtpYsiSDQLJ+QwOqYsuQSwCKjIr7YAav2HkxmPVbUc0snfFasYHRe85c6TMZ8qafWrgbDZ16LzccZV80eq4j50Iu90sRtofHfdObNUiqNKR4Wf3e1S6Y+C9sEL18s3KDx2afSCf6d6iG0TsWPixAVQ9MGSNJGHKIqNuagmZIPtSMhp054g9xBVRVy6pN6kMvVgHpwfHcEkOtrgrDP6g5yCUne4eDNMQicHO8V78LHRnXG55BrkdfW3O2TvuHi4HhJyNRecot6DRcxOYEL755B43/e24JAw9RhUwAAAABJRU5ErkJggg=="
-                    alt="">
-                <a class="banner" href=""><img class="IMG" src="./register.svg" alt="">Việc làm</a>
-                <a class="dropdown-toggle banner" data-toggle="dropdown" href=""><img class="IMG" src="./person.svg"
-                        alt="">Ứng viên<span class="caret"></span></a>
-                <ul class="dropdown-menu drop">
-                    <li><a href="">Theo Việc Làm</a></li>
-                    <li><a href="">Theo Tìm Kiếm Hồ Sơ</a></li>
-                    <li><a href="">Hồ Sơ Đã Xoá</a></li>
-                    <li><a href="">Danh Sách Đen</a></li>
-                </ul>
-                <a class="banner" class="dropdown-toggle" data-toggle="dropdown" href=""><img class="IMG"
-                        src="./suitcase.svg" alt="">Đơn hàng<span class="caret"></span></a>
-                <ul class="dropdown-menu drop">
-                    <li><a href="">Danh sách đơn hàng</a></li>
-                    <li><a href="">Danh sách chia sẻ sản phẩm</a></li>
-                </ul>
-                <a class="banner" href=""><img class="IMG" src="./graph.svg" alt="">Báo cáo</a>
-                <button class="button">+ Đăng tuyển dụng</button>
-                <button class="button">Tìm ứng viên</button>
-            </div>
-            <div id="back">
-                <a href=""><img id="anh"
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAaCAMAAADyku75AAAC+lBMVEV4jstIWLvbIgT/09D/XFL/KwbL0e95kMt4jcbpWVDM2+74zs1rcrMjL7BGUagME6fmVk750M91kM/80s5PVcBNUb9JWbtLVLZzd7AAP6T///9tgsdGWL1MXLx6gLdETrMhK69NV6mhhKYqLZj40dFzj8/5xsVFXb/oYGnJNjj53NzyxsdMe8BJeL4FUKwAQ6bymJteMozxZWTlWFHqU0jmUEbe6PTN3O/V2un919b81Nb609T80M79xsIBOqEBOpwAPpryeHrjXWTlWVLnWE+2HyziJhb7KQX7///w+f3r8ff99PXq7fXT4fL+7e6+0+y2zOju4ub14uT74uGDotOTq89qkMh6kMVTgcP5v77qwLwuabcqYbEiXbCjh6r4qKkLS6jzn6EkKJkAOpfvjI7MeYngiIHrgXrydHTocHPiaGroXGHmTFLYUUfn6PHy7O/V5O/k5+3J2uz67ev45+ny5ui+xt6Xtdi+ydequtL2ysx/mctnhsRjhsH0u8D0v78+bLn3t7VIdLVmfbNScrFGb7D5r68JU69pdKuymaiRg6erlKMZTaMNR58AOZXFjZTwkJNhNZHag5DCgoz0gn7TW2jpXWTsbmLmbWHdXV3aTlzpY1vZXFb+WlDfU038TETLO0LlQje3HzLkLS7lJATeIgTOHwPx9/rw8/jj7/jV5PXO2+zJzurM0uTC0eTG0OHC0OGvx+D93t+vxd+jw9/j3N7W1t2KsN3x2dh9pdfT1da7vdb21tR3oM7Gxc1wmcpshMpBe8TQqMNfisNJYMDcwb4pc75egb1Seb3wtbtAdrvNtbp3lbpNebrhtbd+lbd9i7ZFebZAT7XluLOdkbBccLA9abAgY68ZVK9NZK5JTa5DVaxiaKuJh6qAeKqvi6kASqkiJahFSqc0W6QAS6RSa6K4jKCIgqAqV591RZ3XkJGyf5HvkpDwlo7Xk4s5D4a9b4U3D4VfNX/SZnHpZW/EbGvrVk+7J07tVkyrGka2IUWqGUXjR0CtHiciiAzRAAACfElEQVQ4y2K408HHx8ODjG9/+pt7rqy5xyHZoffF0+evPztlpR3dxZDEF84hL8+BwJcYlDRN69fW9khKJlw73/11TlZK/Y6tFQzKiuEMYmIMCCyjqqRpYmtRc6M99ua9znczpk+oy/daH8ogIScOlGZkhGMhdUNXkMLYY8fjUmfOeNNoWeLjX90KUsiITWF1S7PSJEejKZFBPqsCQhp6gVZzgKQRGGS1qW1h5ZUPU7Md2yz9fPy3R8QkOOBQCJBa4On+LKOMRK0VZgE7D+rZ2SfjsFptT9qcTAO14PzVobXRevp29n24FGq9TU+s8vbwNC8Pi9DV0W1qxWW1d7BWibeUlIenma85F1fRugrsChcaVKmoCHKDgKCNsLAwt3YUVqsXuS0UMHY2NhYAAhdOIHARyMWmcOKipUzoYBlA2KyOW4BdYTg7IyM7AssIxS1w+yMgALTc2dnYxYUTDOaBrJZlZ5dFYKEjE3/lxIO8oQL0kCDQMyCgzSDB81BBWloBgQ/wfvytYS0lJeUXbKlV7AUKHiDYwJCUxM/Py4uC3/8EKfSrm5CRfnlfKCjAdc42MTy6JS4iKiqCjF9+nybosTzwZIrR7LT+rqsxkCjcXbaGDQ0AdmiWk6BngUWgVWPK7Jmp9y9cBCeKKG0bZjQQn+OksnJLeVFeUOQUI8dJz+62xD5xYDD9MZcFDcxfrGHtG3Zq78bCYss2x2yn1M4z1yUZmJa4s6IBdzcNKy7dB9H7Nxd4aSVmGGW+6u54jFuhpF7MiRD/vCA1g8xZUyd3Mcz7hsVqoEIdSUn9hIaQALNSbYMv2emTsXtmmrU5SKF+e/Thym2lmyINpucCAItz5El1vpdTAAAAAElFTkSuQmCC"
-                        alt=""></a>
-            </div>
-        </div>
+        <header class="bg-gr">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="../Home/homepage.html"
+						><img class="brand-logo" src="../../Image/Career Jungle.png" alt="CAREER JUNGLE"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="../ListCV/ListCV.html">Job List</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../PostNTD/postNTD.html">Post Job</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../CandidateList/candidateList.html">Candidate</a>
+							</li>
+						</ul>
+						<div class="col-4 col-sm-3 col-md-3 ">
+							<button
+								type="button"
+								class="my_btn btn d-block ml-auto"
+							>
+							 <a class="button_loggin" href="../Profile/profileNTD.html">Profile</a>	
+							</button>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
         <div id="wrap">
             <div id="body">
                 <div>
@@ -307,7 +328,7 @@
         </div>
         <div id="fixed-bar">
             <button id="save">Lưu Nháp</button>
-            <button id="secondsave">Lưu và Tiếp Tục</button>
+            <a href="../Profile/profileNTD.html"><button id="secondsave">Lưu và Tiếp Tục</button></a>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

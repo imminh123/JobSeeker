@@ -6,7 +6,7 @@ body {
 #SearchBar {
     padding: 15px 0px 15px 16px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 #img {
@@ -27,7 +27,7 @@ body {
 }
 
 #SearchBox:hover {
-    border: 1px solid #f7941d;
+    border: 1px solid #5bbc2e;
 }
 
 #magnifier {
@@ -98,7 +98,7 @@ body {
 
 .dropdown-content a:hover {
     background-color: #f2f2f2;
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 .dropdown:hover .dropdown-content {
@@ -132,7 +132,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f7941d;
+    background-color: #5bbc2e;
     border: none;
     margin-left: 146px;
 }
@@ -237,12 +237,12 @@ body {
 
 .topnav a:hover {
     background-color: white;
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 .topnav a.active {
     background-color: white;
-    color: #f7941d;
+    color: #5bbc2e;
     border-style: none none solid none;
     border-width: 2px;
 }
@@ -292,19 +292,19 @@ body {
 }
 
 .titlea:hover {
-    color: #fd7e14;
+    color: #5bbc2e;
     text-decoration: none;
 }
 
 .salary {
-    color: #00b9f2;
+    color: #5bbc2e;
     font-size: 14px;
     text-decoration: none;
     margin-bottom: 2px;
 }
 
 .salary:hover {
-    color: #f7941d;
+    color: #5bbc2e;
     text-decoration: none;
 }
 
@@ -370,7 +370,7 @@ body {
 
 .menu a:hover {
 background-color: #f1f1f1;
-color: #f7941d;
+color: #5bbc2e;
 }
 
 .drop:hover .menu {
@@ -379,7 +379,7 @@ color: #f7941d;
 
 .drop:hover .dropdown-toggle2 {
     background-color: #fff;
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 .proa {
@@ -403,7 +403,7 @@ border-color: #999;
 .job {
     width: 80%;
     height: 184.5px;
-    border: 1px solid #00b9f2;
+    border: 1px solid #5bbc2e;
     display: flex;
     flex-direction: row;
     margin-left: 158px;
@@ -414,7 +414,7 @@ border-color: #999;
     width: 132.91px;
     border-style: none solid solid none;
     border-width: 1px;
-    border-color: #00b9f2;
+    border-color: #5bbc2e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,11 +437,11 @@ border-color: #999;
 }
 
 .money {
-    color: #00b9f2;
+    color: #5bbc2e;
 }
 
 .job-info a:hover {
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 .titel {
@@ -458,7 +458,7 @@ border-color: #999;
 }
 
 .locate:hover {
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 .location {
@@ -495,11 +495,11 @@ border-color: #999;
     margin-top: 10px;
     text-decoration: none;
     font-size: 12.25px;
-    color: #00b9f2;
+    color: #5bbc2e;
 }
 
 #change:hover {
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 .means {
@@ -545,7 +545,7 @@ border-color: #999;
 }
 
 .y:hover {
-    color: #f7941d;
+    color: #5bbc2e;
 }
 
 

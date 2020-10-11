@@ -1,5 +1,5 @@
 body {
-	padding: 0;
+	padding-top: 0;
 	margin: 0;
 	font-family: "Nunito", sans-serif;
 	/* background-color: red; */
@@ -13,6 +13,7 @@ body {
 	align-items: center;
 	padding-left: 130px;
 	padding-right: 130px;
+	padding-top: 70px;
 }
 
 #LeftSideContent {

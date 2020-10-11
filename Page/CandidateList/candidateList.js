@@ -7,7 +7,7 @@ var collapsed = false;
 
 // DATA SOURCE
 var candidates = [
-{"id":1,"first_name":"Nataniel","last_name":"Losemann","email":"nlosemann0@github.com","phone_number":"215-283-9749","star_rating":4,"job":"Software Engineer III","workflow_stage":"Not Hired","source":"ZipRecruiter Organic","applied_date":"5/12/2017","number_of_jobs":4,"isUpdated":0,"isWatched":0,"isReferral":1,"isDuplicate":1},
+{"id":1,"first_name":"Lam","last_name":"Pham Bao","email":"nlosemann0@github.com","phone_number":"215-283-9749","star_rating":4,"job":"Software Engineer III","workflow_stage":"Not Hired","source":"ZipRecruiter Organic","applied_date":"5/12/2017","number_of_jobs":4,"isUpdated":0,"isWatched":0,"isReferral":1,"isDuplicate":1},
 {"id":2,"first_name":"Lemuel","last_name":"Aland","email":"laland1@icio.us","phone_number":"917-156-9032","star_rating":4,"job":"Data Coordiator","workflow_stage":"On-Site Interview","source":"Glassdoor","applied_date":"4/2/2018","number_of_jobs":3,"isUpdated":0,"isWatched":1,"isReferral":0,"isDuplicate":1},
 {"id":3,"first_name":"Bari","last_name":"Hold","email":"bhold2@myspace.com","phone_number":"221-535-4803","star_rating":3,"job":"Actuary","workflow_stage":"On-Site Interview","source":"LinkedIn","applied_date":"4/20/2017","number_of_jobs":1,"isUpdated":1,"isWatched":1,"isReferral":0,"isDuplicate":0},
 {"id":4,"first_name":"Tabitha","last_name":"Lantiffe","email":"tlantiffe3@businesswire.com","phone_number":"217-615-5679","star_rating":2,"job":"Database Administrator III","workflow_stage":"Hired — Full-time","source":"ZipRecruiter Organic","applied_date":"1/23/2018","number_of_jobs":3,"isUpdated":1,"isWatched":1,"isReferral":1,"isDuplicate":0},

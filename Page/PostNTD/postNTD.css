@@ -9,7 +9,7 @@
 }
 
 #header {
-    background-color: #337ab7;;
+    background-color: #489C22;;
     padding: 0px 15px;
     display: flex;
     justify-content: space-between;
@@ -23,18 +23,18 @@
 }
 
 .banner:hover {
-    background-color: #073c64;
+    background-color: #489C22;
     color: #fff;
     border-style: none none solid none;
     border-width: 1px;
-    border-color: #f7941d;
+    border-color: yellow;
     text-decoration: none;
 }
 
 .button {
     border-style: solid;
     border-width: 1px;
-    background-color: #f7941d;
+    background-color: #489C22;
     border-color: #fff;
     border-radius: 5px;
     color: #fff;
@@ -63,7 +63,7 @@
 }
 
 .fullimg {
-    background-color: #36a2f1;
+    background-color: #489C22;
     color: #fff;
     border-radius: 50%;
     width: 40px;
@@ -202,7 +202,7 @@
 }
 
 #addition {
-    color: #0e7ccd;
+    color: #489C22;
     font-size: 14px;
     margin: 5px 0px 10px;
 }
@@ -264,7 +264,7 @@
 }
 
 #secondsave {
-    background-color: #f7941d;
+    background-color: #489C22;
     border: 1px solid transparent;
     border-radius: 3px;
     font-size: 14px;
